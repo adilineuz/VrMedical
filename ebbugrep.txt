@@ -1,0 +1,723 @@
+date/time         : 2022-10-03 09:23
+computer name     : DESKTOP-SRD4M3N
+user name         : AdiLine
+operating system  : Windows NT New build 9200
+system language   : Russian
+system up time    : 2 days 7 hours 
+program up time   : 13 seconds 
+physical memory   : 2048/2048 MB (free/total)
+free disk space   : (C:) 29,41 GB
+process id        : $21b4
+executable        : 123.exe
+exec. date/time   : 2022-10-03 09:23
+version           : 1.4.2.36
+madExcept version : 2.7
+exception class   : EOleException
+exception message : Требуемый ресурс занят.
+
+main thread ($391c):
+004d783d 123.exe      madDisAsm ParseFunction_
+76e74e7b USER32.dll             DispatchMessageA
+764bf987 KERNEL32.DLL           BaseThreadInitThunk
+
+thread $b10:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $29e0:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $45b4:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $4698:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+>> created by main thread ($391c) at:
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $980:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $264:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2c9c:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $47b4:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3c70:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $4158:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $1af0:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+7733159a ntdll.dll       NtSetEvent
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $218:
+766b586c win32u.dll    NtUserMsgWaitForMultipleObjectsEx
+76e88e67 USER32.dll    MsgWaitForMultipleObjectsEx
+761d20e2 combase.dll   CoWaitForMultipleHandles
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $17e0:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+7733248a ntdll.dll       NtGetWriteWatch
+75c93089 KERNELBASE.dll  GetWriteWatch
+7733248a ntdll.dll       NtGetWriteWatch
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $2dc8:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $3cec:
+766b586c win32u.dll    NtUserMsgWaitForMultipleObjectsEx
+76e88e67 USER32.dll    MsgWaitForMultipleObjectsEx
+761d20e2 combase.dll   CoWaitForMultipleHandles
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $221c:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $475c:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+75c89603 KERNELBASE.dll  WaitForMultipleObjects
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $2d8c:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $a94:
+766b106c win32u.dll    NtUserGetMessage
+76e70b8f USER32.dll    GetMessageA
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 123.exe                     1.4.2.36            C:\Users\AdiLine\Desktop
+10000000 idmmkb.dll                  6.19.9.1            C:\Program Files (x86)\Internet Download Manager
+64a50000 WINHTTP.dll                 6.2.19041.264       C:\Windows\System32
+64b20000 ondemandconnroutehelper.dll 6.2.19041.1         C:\Windows\SYSTEM32
+66610000 uiautomationcore.dll        7.2.19041.423       C:\Windows\System32
+66890000 d3d10warp.dll               6.2.19041.1         C:\Windows\SYSTEM32
+66e60000 d2d1.dll                    6.2.19041.329       C:\Windows\System32
+67380000 msimtf.dll                  6.2.19041.1         C:\Windows\system32
+67390000 jscript9.dll                11.0.19041.329      C:\Windows\System32
+67750000 MLANG.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+67790000 srpapi.dll                  6.2.19041.1         C:\Windows\System32
+677c0000 mshtml.dll                  11.0.19041.423      C:\Windows\System32
+68a20000 msIso.dll                   11.0.19041.423      C:\Windows\SYSTEM32
+68a70000 ieframe.dll                 11.0.19041.423      C:\Windows\System32
+69530000 DWrite.dll                  6.2.19041.388       C:\Windows\System32
+69c20000 comctl32.dll                5.82.19041.1        C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1
+69df0000 iertutil.dll                11.0.19041.423      C:\Windows\SYSTEM32
+6a020000 URLMON.DLL                  11.0.19041.117      C:\Windows\SYSTEM32
+6a290000 textinputframework.dll      6.2.19041.423       C:\Windows\SYSTEM32
+6a350000 windowscodecs.dll           6.2.19041.388       C:\Windows\system32
+6a4c0000 twinapi.appcore.dll         6.2.19041.388       C:\Windows\system32
+6a650000 dcomp.dll                   6.2.19041.388       C:\Windows\system32
+6a7c0000 d3d11.dll                   6.2.19041.1         C:\Windows\system32
+6a9a0000 dataexchange.dll            6.2.19041.264       C:\Windows\system32
+6ac50000 WININET.dll                 11.0.19041.423      C:\Windows\SYSTEM32
+6b0b0000 comctl32.DLL                6.10.19041.1        C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2
+6b2c0000 CoreUIComponents.dll        6.2.19041.1         C:\Windows\System32
+6b540000 CoreMessaging.dll           6.2.19041.423       C:\Windows\System32
+6b5e0000 wintypes.dll                6.2.19041.329       C:\Windows\SYSTEM32
+6bc30000 dxcore.dll                  6.2.19041.1         C:\Windows\SYSTEM32
+6c220000 dxgi.dll                    6.2.19041.1         C:\Windows\system32
+6c960000 olepro32.dll                6.2.19041.84        C:\Windows\SYSTEM32
+6cc00000 PROPSYS.dll                 7.0.19041.1         C:\Windows\SYSTEM32
+6ce60000 WINMM.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6d4a0000 uxtheme.dll                 6.2.19041.1         C:\Windows\system32
+6d720000 SspiCli.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+6da00000 Secur32.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+6dde0000 apphelp.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+6de80000 ntmarta.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+6eb60000 USERENV.dll                 6.2.19041.1         C:\Windows\System32
+6ee60000 sxs.dll                     6.2.19041.1         C:\Windows\SYSTEM32
+71d00000 Wldp.dll                    6.2.19041.423       C:\Windows\SYSTEM32
+71d30000 windows.storage.dll         6.2.19041.423       C:\Windows\SYSTEM32
+72f10000 TextShaping.dll                                 C:\Windows\SYSTEM32
+743c0000 WINNSI.DLL                  6.2.19041.1         C:\Windows\SYSTEM32
+743d0000 dhcpcsvc.DLL                6.2.19041.1         C:\Windows\SYSTEM32
+743f0000 dhcpcsvc6.DLL               6.2.19041.1         C:\Windows\SYSTEM32
+744e0000 CRYPTBASE.DLL               6.2.19041.1         C:\Windows\SYSTEM32
+744f0000 profapi.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+74de0000 version.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+74df0000 kernel.appcore.dll          6.2.19041.1         C:\Windows\SYSTEM32
+74e00000 mswsock.dll                 6.2.19041.423       C:\Windows\system32
+74f60000 UMPDC.dll                                       C:\Windows\SYSTEM32
+74f70000 NETUTILS.DLL                6.2.19041.1         C:\Windows\System32
+75000000 WKSCLI.DLL                  6.2.19041.1         C:\Windows\System32
+75080000 wsock32.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+75090000 NETAPI32.dll                6.2.19041.1         C:\Windows\System32
+750b0000 powrprof.dll                6.2.19041.1         C:\Windows\SYSTEM32
+75100000 IPHLPAPI.DLL                6.2.19041.1         C:\Windows\SYSTEM32
+751a0000 ucrtbase.dll                6.2.19041.423       C:\Windows\System32
+752c0000 sechost.dll                 6.2.19041.388       C:\Windows\System32
+753a0000 SHELL32.dll                 6.2.19041.423       C:\Windows\System32
+75950000 comdlg32.dll                6.2.19041.329       C:\Windows\System32
+75b70000 KERNELBASE.dll              6.2.19041.423       C:\Windows\System32
+75df0000 WS2_32.dll                  6.2.19041.1         C:\Windows\System32
+75e80000 IMM32.DLL                   6.2.19041.1         C:\Windows\System32
+75eb0000 CRYPT32.dll                 6.2.19041.21        C:\Windows\System32
+75fb0000 bcrypt.dll                  6.2.19041.1         C:\Windows\System32
+75fd0000 RPCRT4.dll                  6.2.19041.1         C:\Windows\System32
+76090000 cfgmgr32.dll                6.2.19041.1         C:\Windows\System32
+760d0000 combase.dll                 6.2.19041.329       C:\Windows\System32
+76410000 shcore.dll                  6.2.19041.388       C:\Windows\System32
+764a0000 KERNEL32.DLL                6.2.19041.292       C:\Windows\System32
+76620000 NSI.dll                     6.2.19041.1         C:\Windows\System32
+76630000 clbcatq.dll                 2001.12.10941.16384 C:\Windows\System32
+766b0000 win32u.dll                  6.2.19041.423       C:\Windows\System32
+766d0000 SHLWAPI.dll                 6.2.19041.1         C:\Windows\System32
+76720000 oleaut32.dll                6.2.19041.388       C:\Windows\System32
+767c0000 ole32.dll                   6.2.19041.84        C:\Windows\System32
+768b0000 msvcrt.dll                  7.0.19041.1         C:\Windows\System32
+76980000 GDI32.dll                   6.2.19041.1         C:\Windows\System32
+76df0000 bcryptPrimitives.dll        6.2.19041.264       C:\Windows\System32
+76e50000 USER32.dll                  6.2.19041.388       C:\Windows\System32
+76ff0000 MSCTF.dll                   6.2.19041.388       C:\Windows\System32
+770d0000 gdi32full.dll               6.2.19041.388       C:\Windows\System32
+771b0000 msvcp_win.dll               6.2.19041.423       C:\Windows\System32
+77230000 advapi32.dll                6.2.19041.1         C:\Windows\System32
+772c0000 ntdll.dll                   6.2.19041.423       C:\Windows\SYSTEM32
+
+disassembling:
+004d783d sub_4d783d:                      ; function entry point
+004d783d > xor     eax, eax
+004d783f   pop     edx
+004d7840   pop     ecx
+004d7841   pop     ecx
+004d7842   mov     fs:[eax], edx
+[...]
+
+date/time         : 2022-10-03 09:23
+computer name     : DESKTOP-SRD4M3N
+user name         : AdiLine
+operating system  : Windows NT New build 9200
+system language   : Russian
+system up time    : 2 days 7 hours 
+program up time   : 16 seconds 
+physical memory   : 2048/2048 MB (free/total)
+free disk space   : (C:) 29,41 GB
+process id        : $21b4
+executable        : 123.exe
+exec. date/time   : 2022-10-03 09:23
+version           : 1.4.2.36
+madExcept version : 2.7
+exception class   : EOleException
+exception message : Требуемый ресурс занят.
+
+main thread ($391c):
+004d783d 123.exe      madDisAsm ParseFunction_
+76e74e7b USER32.dll             DispatchMessageA
+764bf987 KERNEL32.DLL           BaseThreadInitThunk
+
+thread $b10:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $29e0:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $45b4:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $4698:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+>> created by main thread ($391c) at:
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $980:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $264:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2c9c:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $47b4:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3c70:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $4158:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $1af0:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+7733159a ntdll.dll       NtSetEvent
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $218:
+766b586c win32u.dll    NtUserMsgWaitForMultipleObjectsEx
+76e88e67 USER32.dll    MsgWaitForMultipleObjectsEx
+761d20e2 combase.dll   CoWaitForMultipleHandles
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $17e0:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+7733248a ntdll.dll       NtGetWriteWatch
+75c93089 KERNELBASE.dll  GetWriteWatch
+7733248a ntdll.dll       NtGetWriteWatch
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $2dc8:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $3cec:
+766b586c win32u.dll    NtUserMsgWaitForMultipleObjectsEx
+76e88e67 USER32.dll    MsgWaitForMultipleObjectsEx
+761d20e2 combase.dll   CoWaitForMultipleHandles
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $221c:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $475c:
+766b364c win32u.dll    NtGdiDdDDIWaitForVerticalBlankEvent
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2d8c:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $a94:
+766b106c win32u.dll    NtUserGetMessage
+76e70b8f USER32.dll    GetMessageA
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 123.exe                       1.4.2.36            C:\Users\AdiLine\Desktop
+03da0000 SFC.DLL                       6.2.19041.1         C:\Windows\System32
+10000000 idmmkb.dll                    6.19.9.1            C:\Program Files (x86)\Internet Download Manager
+64700000 riched20.dll                  12.0.4518.1014      C:\Program Files (x86)\Common Files\Microsoft Shared\office12
+64a50000 WINHTTP.dll                   6.2.19041.264       C:\Windows\System32
+64b20000 ondemandconnroutehelper.dll   6.2.19041.1         C:\Windows\SYSTEM32
+64f90000 msi.dll                       5.0.19041.423       C:\Windows\SYSTEM32
+65230000 mso.dll                       12.0.4518.1014      C:\Program Files (x86)\Common Files\Microsoft Shared\office12
+66250000 olmapi32.dll                  12.0.4518.1014      C:\Program Files (x86)\Microsoft Office\Office12
+66530000 MSVCR80.dll                   8.0.50727.9672      C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_d08f9da24428a513
+665d0000 MSMAPI32.DLL                  12.0.4518.1014      C:\Program Files (x86)\Common Files\SYSTEM\MSMAPI\1049
+665e0000 mapi32.dll                    1.0.2536.0          C:\Windows\SYSTEM32
+66610000 uiautomationcore.dll          7.2.19041.423       C:\Windows\System32
+66890000 d3d10warp.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+66e60000 d2d1.dll                      6.2.19041.329       C:\Windows\System32
+67380000 msimtf.dll                    6.2.19041.1         C:\Windows\system32
+67390000 jscript9.dll                  11.0.19041.329      C:\Windows\System32
+67750000 MLANG.dll                     6.2.19041.1         C:\Windows\SYSTEM32
+67790000 srpapi.dll                    6.2.19041.1         C:\Windows\System32
+677c0000 mshtml.dll                    11.0.19041.423      C:\Windows\System32
+68a20000 msIso.dll                     11.0.19041.423      C:\Windows\SYSTEM32
+68a70000 ieframe.dll                   11.0.19041.423      C:\Windows\System32
+69530000 DWrite.dll                    6.2.19041.388       C:\Windows\System32
+69c20000 comctl32.dll                  5.82.19041.1        C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1
+69df0000 iertutil.dll                  11.0.19041.423      C:\Windows\SYSTEM32
+6a020000 URLMON.DLL                    11.0.19041.117      C:\Windows\SYSTEM32
+6a1d0000 Windows.StateRepositoryPS.dll 6.2.19041.329       C:\Windows\System32
+6a290000 textinputframework.dll        6.2.19041.423       C:\Windows\SYSTEM32
+6a350000 windowscodecs.dll             6.2.19041.388       C:\Windows\system32
+6a4c0000 twinapi.appcore.dll           6.2.19041.388       C:\Windows\system32
+6a650000 dcomp.dll                     6.2.19041.388       C:\Windows\system32
+6a7c0000 d3d11.dll                     6.2.19041.1         C:\Windows\system32
+6a9a0000 dataexchange.dll              6.2.19041.264       C:\Windows\system32
+6ac50000 WININET.dll                   11.0.19041.423      C:\Windows\SYSTEM32
+6b0b0000 comctl32.DLL                  6.10.19041.1        C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2
+6b2c0000 CoreUIComponents.dll          6.2.19041.1         C:\Windows\System32
+6b540000 CoreMessaging.dll             6.2.19041.423       C:\Windows\System32
+6b5e0000 wintypes.dll                  6.2.19041.329       C:\Windows\SYSTEM32
+6bc30000 dxcore.dll                    6.2.19041.1         C:\Windows\SYSTEM32
+6c220000 dxgi.dll                      6.2.19041.1         C:\Windows\system32
+6c960000 olepro32.dll                  6.2.19041.84        C:\Windows\SYSTEM32
+6cc00000 PROPSYS.dll                   7.0.19041.1         C:\Windows\SYSTEM32
+6ce60000 WINMM.dll                     6.2.19041.1         C:\Windows\SYSTEM32
+6d010000 sfc_os.DLL                    6.2.19041.1         C:\Windows\SYSTEM32
+6d4a0000 uxtheme.dll                   6.2.19041.1         C:\Windows\system32
+6d720000 SspiCli.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6da00000 Secur32.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6dde0000 apphelp.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6de80000 ntmarta.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6eb60000 USERENV.dll                   6.2.19041.1         C:\Windows\System32
+6ee60000 sxs.dll                       6.2.19041.1         C:\Windows\SYSTEM32
+71d00000 Wldp.dll                      6.2.19041.423       C:\Windows\SYSTEM32
+71d30000 windows.storage.dll           6.2.19041.423       C:\Windows\SYSTEM32
+72f10000 TextShaping.dll                                   C:\Windows\SYSTEM32
+743c0000 WINNSI.DLL                    6.2.19041.1         C:\Windows\SYSTEM32
+743d0000 dhcpcsvc.DLL                  6.2.19041.1         C:\Windows\SYSTEM32
+743f0000 dhcpcsvc6.DLL                 6.2.19041.1         C:\Windows\SYSTEM32
+744e0000 CRYPTBASE.DLL                 6.2.19041.1         C:\Windows\SYSTEM32
+744f0000 profapi.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+74de0000 version.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+74df0000 kernel.appcore.dll            6.2.19041.1         C:\Windows\SYSTEM32
+74e00000 mswsock.dll                   6.2.19041.423       C:\Windows\system32
+74f60000 UMPDC.dll                                         C:\Windows\SYSTEM32
+74f70000 NETUTILS.DLL                  6.2.19041.1         C:\Windows\System32
+75000000 WKSCLI.DLL                    6.2.19041.1         C:\Windows\System32
+75080000 wsock32.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+75090000 NETAPI32.dll                  6.2.19041.1         C:\Windows\System32
+750b0000 powrprof.dll                  6.2.19041.1         C:\Windows\SYSTEM32
+75100000 IPHLPAPI.DLL                  6.2.19041.1         C:\Windows\SYSTEM32
+751a0000 ucrtbase.dll                  6.2.19041.423       C:\Windows\System32
+752c0000 sechost.dll                   6.2.19041.388       C:\Windows\System32
+753a0000 SHELL32.dll                   6.2.19041.423       C:\Windows\System32
+75950000 comdlg32.dll                  6.2.19041.329       C:\Windows\System32
+75b70000 KERNELBASE.dll                6.2.19041.423       C:\Windows\System32
+75df0000 WS2_32.dll                    6.2.19041.1         C:\Windows\System32
+75e60000 imagehlp.dll                  6.2.19041.1         C:\Windows\System32
+75e80000 IMM32.DLL                     6.2.19041.1         C:\Windows\System32
+75eb0000 CRYPT32.dll                   6.2.19041.21        C:\Windows\System32
+75fb0000 bcrypt.dll                    6.2.19041.1         C:\Windows\System32
+75fd0000 RPCRT4.dll                    6.2.19041.1         C:\Windows\System32
+76090000 cfgmgr32.dll                  6.2.19041.1         C:\Windows\System32
+760d0000 combase.dll                   6.2.19041.329       C:\Windows\System32
+76410000 shcore.dll                    6.2.19041.388       C:\Windows\System32
+764a0000 KERNEL32.DLL                  6.2.19041.292       C:\Windows\System32
+76620000 NSI.dll                       6.2.19041.1         C:\Windows\System32
+76630000 clbcatq.dll                   2001.12.10941.16384 C:\Windows\System32
+766b0000 win32u.dll                    6.2.19041.423       C:\Windows\System32
+766d0000 SHLWAPI.dll                   6.2.19041.1         C:\Windows\System32
+76720000 oleaut32.dll                  6.2.19041.388       C:\Windows\System32
+767c0000 ole32.dll                     6.2.19041.84        C:\Windows\System32
+768b0000 msvcrt.dll                    7.0.19041.1         C:\Windows\System32
+76980000 GDI32.dll                     6.2.19041.1         C:\Windows\System32
+76df0000 bcryptPrimitives.dll          6.2.19041.264       C:\Windows\System32
+76e50000 USER32.dll                    6.2.19041.388       C:\Windows\System32
+76ff0000 MSCTF.dll                     6.2.19041.388       C:\Windows\System32
+770d0000 gdi32full.dll                 6.2.19041.388       C:\Windows\System32
+771b0000 msvcp_win.dll                 6.2.19041.423       C:\Windows\System32
+77230000 advapi32.dll                  6.2.19041.1         C:\Windows\System32
+772c0000 ntdll.dll                     6.2.19041.423       C:\Windows\SYSTEM32
+
+disassembling:
+004d783d sub_4d783d:                      ; function entry point
+004d783d > xor     eax, eax
+004d783f   pop     edx
+004d7840   pop     ecx
+004d7841   pop     ecx
+004d7842   mov     fs:[eax], edx
+[...]
+
+date/time         : 2022-10-03 09:23
+computer name     : DESKTOP-SRD4M3N
+user name         : AdiLine
+operating system  : Windows NT New build 9200
+system language   : Russian
+system up time    : 2 days 7 hours 
+program up time   : 18 seconds 
+physical memory   : 2048/2048 MB (free/total)
+free disk space   : (C:) 29,41 GB
+process id        : $21b4
+executable        : 123.exe
+exec. date/time   : 2022-10-03 09:23
+version           : 1.4.2.36
+madExcept version : 2.7
+exception class   : EOleException
+exception message : Требуемый ресурс занят.
+
+main thread ($391c):
+004d783d 123.exe      madDisAsm ParseFunction_
+76e74e7b USER32.dll             DispatchMessageA
+764bf987 KERNEL32.DLL           BaseThreadInitThunk
+
+thread $b10:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $29e0:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $45b4:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $4698:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+>> created by main thread ($391c) at:
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $980:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $264:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2c9c:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $47b4:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $3c70:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $4158:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $1af0:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+7733159a ntdll.dll       NtSetEvent
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $218:
+766b586c win32u.dll    NtUserMsgWaitForMultipleObjectsEx
+76e88e67 USER32.dll    MsgWaitForMultipleObjectsEx
+761d20e2 combase.dll   CoWaitForMultipleHandles
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $17e0:
+77331a8c ntdll.dll       NtWaitForMultipleObjects
+75c8971d KERNELBASE.dll  WaitForMultipleObjectsEx
+7733248a ntdll.dll       NtGetWriteWatch
+75c93089 KERNELBASE.dll  GetWriteWatch
+7733248a ntdll.dll       NtGetWriteWatch
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $2dc8:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+76916dbc msvcrt.dll      _endthreadex
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+>> created by main thread ($391c) at:
+76916caf msvcrt.dll      _beginthreadex
+
+thread $3cec:
+766b586c win32u.dll    NtUserMsgWaitForMultipleObjectsEx
+76e88e67 USER32.dll    MsgWaitForMultipleObjectsEx
+761d20e2 combase.dll   CoWaitForMultipleHandles
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $221c:
+773314fc ntdll.dll       NtWaitForSingleObject
+75c7f693 KERNELBASE.dll  WaitForSingleObjectEx
+75c7f5ed KERNELBASE.dll  WaitForSingleObject
+764bf987 KERNEL32.DLL    BaseThreadInitThunk
+
+thread $475c:
+766b364c win32u.dll    NtGdiDdDDIWaitForVerticalBlankEvent
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $2d8c:
+7733320c ntdll.dll     NtWaitForWorkViaWorkerFactory
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+thread $a94:
+766b106c win32u.dll    NtUserGetMessage
+76e70b8f USER32.dll    GetMessageA
+764bf987 KERNEL32.DLL  BaseThreadInitThunk
+
+modules:
+00400000 123.exe                       1.4.2.36            C:\Users\AdiLine\Desktop
+03da0000 SFC.DLL                       6.2.19041.1         C:\Windows\System32
+10000000 idmmkb.dll                    6.19.9.1            C:\Program Files (x86)\Internet Download Manager
+64700000 riched20.dll                  12.0.4518.1014      C:\Program Files (x86)\Common Files\Microsoft Shared\office12
+64a50000 WINHTTP.dll                   6.2.19041.264       C:\Windows\System32
+64b20000 ondemandconnroutehelper.dll   6.2.19041.1         C:\Windows\SYSTEM32
+64f90000 msi.dll                       5.0.19041.423       C:\Windows\SYSTEM32
+65230000 mso.dll                       12.0.4518.1014      C:\Program Files (x86)\Common Files\Microsoft Shared\office12
+66250000 olmapi32.dll                  12.0.4518.1014      C:\Program Files (x86)\Microsoft Office\Office12
+66530000 MSVCR80.dll                   8.0.50727.9672      C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9672_none_d08f9da24428a513
+665d0000 MSMAPI32.DLL                  12.0.4518.1014      C:\Program Files (x86)\Common Files\SYSTEM\MSMAPI\1049
+665e0000 mapi32.dll                    1.0.2536.0          C:\Windows\SYSTEM32
+66610000 uiautomationcore.dll          7.2.19041.423       C:\Windows\System32
+66890000 d3d10warp.dll                 6.2.19041.1         C:\Windows\SYSTEM32
+66e60000 d2d1.dll                      6.2.19041.329       C:\Windows\System32
+67380000 msimtf.dll                    6.2.19041.1         C:\Windows\system32
+67390000 jscript9.dll                  11.0.19041.329      C:\Windows\System32
+67750000 MLANG.dll                     6.2.19041.1         C:\Windows\SYSTEM32
+67790000 srpapi.dll                    6.2.19041.1         C:\Windows\System32
+677c0000 mshtml.dll                    11.0.19041.423      C:\Windows\System32
+68a20000 msIso.dll                     11.0.19041.423      C:\Windows\SYSTEM32
+68a70000 ieframe.dll                   11.0.19041.423      C:\Windows\System32
+69530000 DWrite.dll                    6.2.19041.388       C:\Windows\System32
+69c20000 comctl32.dll                  5.82.19041.1        C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1_none_92e69152510a8cb1
+69df0000 iertutil.dll                  11.0.19041.423      C:\Windows\SYSTEM32
+6a020000 URLMON.DLL                    11.0.19041.117      C:\Windows\SYSTEM32
+6a1d0000 Windows.StateRepositoryPS.dll 6.2.19041.329       C:\Windows\System32
+6a290000 textinputframework.dll        6.2.19041.423       C:\Windows\SYSTEM32
+6a350000 windowscodecs.dll             6.2.19041.388       C:\Windows\system32
+6a4c0000 twinapi.appcore.dll           6.2.19041.388       C:\Windows\system32
+6a650000 dcomp.dll                     6.2.19041.388       C:\Windows\system32
+6a7c0000 d3d11.dll                     6.2.19041.1         C:\Windows\system32
+6a9a0000 dataexchange.dll              6.2.19041.264       C:\Windows\system32
+6ac50000 WININET.dll                   11.0.19041.423      C:\Windows\SYSTEM32
+6b0b0000 comctl32.DLL                  6.10.19041.1        C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1_none_fd031af45b0106f2
+6b2c0000 CoreUIComponents.dll          6.2.19041.1         C:\Windows\System32
+6b540000 CoreMessaging.dll             6.2.19041.423       C:\Windows\System32
+6b5e0000 wintypes.dll                  6.2.19041.329       C:\Windows\SYSTEM32
+6bc30000 dxcore.dll                    6.2.19041.1         C:\Windows\SYSTEM32
+6c220000 dxgi.dll                      6.2.19041.1         C:\Windows\system32
+6c960000 olepro32.dll                  6.2.19041.84        C:\Windows\SYSTEM32
+6cc00000 PROPSYS.dll                   7.0.19041.1         C:\Windows\SYSTEM32
+6ce60000 WINMM.dll                     6.2.19041.1         C:\Windows\SYSTEM32
+6d010000 sfc_os.DLL                    6.2.19041.1         C:\Windows\SYSTEM32
+6d4a0000 uxtheme.dll                   6.2.19041.1         C:\Windows\system32
+6d720000 SspiCli.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6da00000 Secur32.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6dde0000 apphelp.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6de80000 ntmarta.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+6eb60000 USERENV.dll                   6.2.19041.1         C:\Windows\System32
+6ee60000 sxs.dll                       6.2.19041.1         C:\Windows\SYSTEM32
+71d00000 Wldp.dll                      6.2.19041.423       C:\Windows\SYSTEM32
+71d30000 windows.storage.dll           6.2.19041.423       C:\Windows\SYSTEM32
+72f10000 TextShaping.dll                                   C:\Windows\SYSTEM32
+743c0000 WINNSI.DLL                    6.2.19041.1         C:\Windows\SYSTEM32
+743d0000 dhcpcsvc.DLL                  6.2.19041.1         C:\Windows\SYSTEM32
+743f0000 dhcpcsvc6.DLL                 6.2.19041.1         C:\Windows\SYSTEM32
+744e0000 CRYPTBASE.DLL                 6.2.19041.1         C:\Windows\SYSTEM32
+744f0000 profapi.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+74de0000 version.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+74df0000 kernel.appcore.dll            6.2.19041.1         C:\Windows\SYSTEM32
+74e00000 mswsock.dll                   6.2.19041.423       C:\Windows\system32
+74f60000 UMPDC.dll                                         C:\Windows\SYSTEM32
+74f70000 NETUTILS.DLL                  6.2.19041.1         C:\Windows\System32
+75000000 WKSCLI.DLL                    6.2.19041.1         C:\Windows\System32
+75080000 wsock32.dll                   6.2.19041.1         C:\Windows\SYSTEM32
+75090000 NETAPI32.dll                  6.2.19041.1         C:\Windows\System32
+750b0000 powrprof.dll                  6.2.19041.1         C:\Windows\SYSTEM32
+75100000 IPHLPAPI.DLL                  6.2.19041.1         C:\Windows\SYSTEM32
+751a0000 ucrtbase.dll                  6.2.19041.423       C:\Windows\System32
+752c0000 sechost.dll                   6.2.19041.388       C:\Windows\System32
+753a0000 SHELL32.dll                   6.2.19041.423       C:\Windows\System32
+75950000 comdlg32.dll                  6.2.19041.329       C:\Windows\System32
+75b70000 KERNELBASE.dll                6.2.19041.423       C:\Windows\System32
+75df0000 WS2_32.dll                    6.2.19041.1         C:\Windows\System32
+75e60000 imagehlp.dll                  6.2.19041.1         C:\Windows\System32
+75e80000 IMM32.DLL                     6.2.19041.1         C:\Windows\System32
+75eb0000 CRYPT32.dll                   6.2.19041.21        C:\Windows\System32
+75fb0000 bcrypt.dll                    6.2.19041.1         C:\Windows\System32
+75fd0000 RPCRT4.dll                    6.2.19041.1         C:\Windows\System32
+76090000 cfgmgr32.dll                  6.2.19041.1         C:\Windows\System32
+760d0000 combase.dll                   6.2.19041.329       C:\Windows\System32
+76410000 shcore.dll                    6.2.19041.388       C:\Windows\System32
+764a0000 KERNEL32.DLL                  6.2.19041.292       C:\Windows\System32
+76620000 NSI.dll                       6.2.19041.1         C:\Windows\System32
+76630000 clbcatq.dll                   2001.12.10941.16384 C:\Windows\System32
+766b0000 win32u.dll                    6.2.19041.423       C:\Windows\System32
+766d0000 SHLWAPI.dll                   6.2.19041.1         C:\Windows\System32
+76720000 oleaut32.dll                  6.2.19041.388       C:\Windows\System32
+767c0000 ole32.dll                     6.2.19041.84        C:\Windows\System32
+768b0000 msvcrt.dll                    7.0.19041.1         C:\Windows\System32
+76980000 GDI32.dll                     6.2.19041.1         C:\Windows\System32
+76df0000 bcryptPrimitives.dll          6.2.19041.264       C:\Windows\System32
+76e50000 USER32.dll                    6.2.19041.388       C:\Windows\System32
+76ff0000 MSCTF.dll                     6.2.19041.388       C:\Windows\System32
+770d0000 gdi32full.dll                 6.2.19041.388       C:\Windows\System32
+771b0000 msvcp_win.dll                 6.2.19041.423       C:\Windows\System32
+77230000 advapi32.dll                  6.2.19041.1         C:\Windows\System32
+772c0000 ntdll.dll                     6.2.19041.423       C:\Windows\SYSTEM32
+
+disassembling:
+004d783d sub_4d783d:                      ; function entry point
+004d783d > xor     eax, eax
+004d783f   pop     edx
+004d7840   pop     ecx
+004d7841   pop     ecx
+004d7842   mov     fs:[eax], edx
+[...]
+
